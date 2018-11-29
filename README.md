@@ -4,7 +4,20 @@ https://reactjs.org/docs/thinking-in-react.html
 
 It demonstrates looping on a given data and manipulating it before rendering using forEach() vs. map().
 
-The project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app); i.e. `npx crete-react-app <app_name>`
+It also uses tables, callback functions and filtering data examples
+
+#### The JSON input for the table looks like this:
+```
+[
+  {category: "Sporting Goods", price: "$49.99", stocked: true, name: "Football"},
+  {category: "Sporting Goods", price: "$9.99", stocked: true, name: "Baseball"},
+  {category: "Sporting Goods", price: "$29.99", stocked: false, name: "Basketball"},
+  {category: "Electronics", price: "$99.99", stocked: true, name: "iPod Touch"},
+  {category: "Electronics", price: "$399.99", stocked: false, name: "iPhone 5"},
+  {category: "Electronics", price: "$199.99", stocked: true, name: "Nexus 7"}
+];
+```
+### Using react-bootstrap:
 
 #### Great react-bootstrap tutorial can be found [here](https://react-bootstrap.github.io/getting-started/introduction/) and [here](https://www.w3schools.com/bootstrap/default.asp)
 
@@ -26,18 +39,11 @@ The project was bootstrapped with [Create React App](https://github.com/facebook
   ```
   <Button bsStyle="info">Click Me!</Button>
   ```
-#### The JSON input for the table looks like this:
-```
-[
-  {category: "Sporting Goods", price: "$49.99", stocked: true, name: "Football"},
-  {category: "Sporting Goods", price: "$9.99", stocked: true, name: "Baseball"},
-  {category: "Sporting Goods", price: "$29.99", stocked: false, name: "Basketball"},
-  {category: "Electronics", price: "$99.99", stocked: true, name: "iPod Touch"},
-  {category: "Electronics", price: "$399.99", stocked: false, name: "iPhone 5"},
-  {category: "Electronics", price: "$199.99", stocked: true, name: "Nexus 7"}
-];
-```
+  
+### Infrastructure:
 
+The project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app); i.e. `npx crete-react-app <app_name>`
+  
 #### To start working on this project:
 - `git clone` to clone the project
 - `cd` to the app folder
