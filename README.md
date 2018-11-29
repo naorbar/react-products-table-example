@@ -1,5 +1,4 @@
-
-### This project implements the Products Table example described here:
+This project implements the Products Table example described here:
 https://reactjs.org/docs/thinking-in-react.html
 
 It demonstrates looping on a given data and manipulating it before rendering using forEach() vs. map().
@@ -17,6 +16,8 @@ It also uses tables, callback functions and filtering data examples
   {category: "Electronics", price: "$199.99", stocked: true, name: "Nexus 7"}
 ];
 ```
+___
+
 ### Using react-bootstrap:
 
 #### Great react-bootstrap tutorial can be found [here](https://react-bootstrap.github.io/getting-started/introduction/) and [here](https://www.w3schools.com/bootstrap/default.asp)
@@ -39,7 +40,8 @@ It also uses tables, callback functions and filtering data examples
   ```
   <Button bsStyle="info">Click Me!</Button>
   ```
-  
+___
+
 ### Infrastructure:
 
 The project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app); i.e. `npx crete-react-app <app_name>`
@@ -50,3 +52,4 @@ The project was bootstrapped with [Create React App](https://github.com/facebook
 - `npm install` to install all dependencies into the app folder
 - `npm start` to start the server on http://localhost:3000
 - open the project using Atom or any other IDE
+___
