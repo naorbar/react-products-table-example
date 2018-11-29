@@ -1,4 +1,4 @@
-This project implements the Products Table example described here:
+### This project implements the Products Table example described here:
 https://reactjs.org/docs/thinking-in-react.html
 
 It demonstrates looping on a given data and manipulating it before rendering using forEach() vs. map().
